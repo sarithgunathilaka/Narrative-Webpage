@@ -1,0 +1,134 @@
+<html>
+
+<head>
+  <title>Make a better choice for your better tomorrow</title>
+  <link href="cssfile.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .bg {
+    /* The image used */
+
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button1 {
+    background-color: red;
+    opacity: 0.5;
+    color: black;
+    border: 2px solid red;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .button1:hover {
+    background-color: red;
+    opacity: 1;
+    color: white;
+  }
+
+  .imageContainer1 {
+    display: flex;
+    padding: 20px 300px 60px 530px;
+    justify-content: space-between;
+  }
+
+  .imageContainer2 {
+    display: flex;
+    padding: 20px 300px 60px 530px;
+    justify-content: space-between;
+  }
+
+  .imageContainer3 {
+    display: flex;
+    padding: 20px 300px 60px 530px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 1450px) {
+    .imageContainer1 {
+      padding: 40px 90px 40px 300px;
+    }
+
+    .imageContainer2 {
+      padding: 20px 90px 40px 300px;
+    }
+
+    .imageContainer3 {
+      padding: 20px 90px 60px 300px;
+    }
+  }
+
+  .imageWrapper {
+    background: blue;
+    width: 150px;
+    height: 150px
+  }
+
+  .mainWrapper {
+    background-image: url(Images/background/Untitled.jpg);
+
+    /* Full height */
+    height: 800px;
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+</style>
+
+<body>
+
+
+
+  <!--Logo and nav bar Div Container-->
+  <div style="width:100%; height: 100%; background-color: beige">
+    <div>
+      <img src="Images/LOGO/Logo.png" style="width:250px; height:100px;" alt="logo">
+      <button class="button_nav" style="vertical-align:middle"><span>Page1 </span></button>
+      <button class="button_nav" style="vertical-align:middle"><span>Page2 </span></button>
+      <button class="button_nav" style="vertical-align:middle"><span>Page3 </span></button>
+      <button class="button_nav" style="vertical-align:middle"><span>Page4 </span></button>
+    </div>
+
+    <div class="mainWrapper">
+      <div class="imageContainer1">
+        <div class="imageWrapper">1</div>
+        <div class="imageWrapper">1</div>
+      </div>
+      <div class="imageContainer2">
+        <div class="imageWrapper">1</div>
+        <div class="imageWrapper">1</div>
+      </div>
+      <div class="imageContainer3">
+        <div class="imageWrapper">1</div>
+        <div class="imageWrapper">1</div>
+      </div>
+    </div>
+    <div>
+      <button class="button button1" style="float: left;">GO BACK</button>
+    </div>
+
+  </div>
+
+  </div>
+
+</body>
+
+</html>
